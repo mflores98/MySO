@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MySO</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activity_linux">ActivityOs</string>
+    <string name="title_activity_activity3_detalles">Activity3Detalles</string>
+
+</resources>

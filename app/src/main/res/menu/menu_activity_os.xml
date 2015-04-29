@@ -2,6 +2,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="eingv.uabc.com.myso.ActivityVerOs">
-    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+
+    <!-- >-->
+    <item android:id="@+id/regresar1" android:title="@string/regresar1"
         android:orderInCategory="100" app:showAsAction="never" />
+
+
 </menu>

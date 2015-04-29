@@ -3,7 +3,11 @@
 
     <string name="app_name">MySO</string>
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Acerca</string>
+    <string name="regresar1">Regresar</string>
+    <string name="regresar2">Regresar</string>
+
+
     <string name="title_activity_activity_linux">ActivityOs</string>
     <string name="title_activity_activity3_detalles">Activity3Detalles</string>
 

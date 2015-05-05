@@ -43,7 +43,6 @@ private ToggleButton toggleButton;
     }
 
 
-
     public void escritorioOS(){
         optionSpinner= new String[]{"Linux", "Win", "OSx"};
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this,android.R.layout.simple_spinner_item, optionSpinner);

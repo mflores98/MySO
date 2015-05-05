@@ -458,9 +458,6 @@ private TextView fechaInicio,fechaFinal;
             fechaInicio.setText("12 de febrero de 2015");
             fechaFinal.setText("Activo");
         }
-
-
-
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////Blackberry//////////////////////////////////////////////////////////////////////////////////////////////////
@@ -545,19 +542,12 @@ private TextView fechaInicio,fechaFinal;
             fechaFinal.setText("12 de junio de 2013");
         }
     }
-
-
-
-
-
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_activity3_detalles, menu);
         return true;
     }
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -567,8 +557,8 @@ private TextView fechaInicio,fechaFinal;
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.regresar2) {
-            Intent intent=new Intent(this,ActivityVerOs.class);
-            startActivity(intent);
+            finish();
+            return true;
         }
 
         return super.onOptionsItemSelected(item);

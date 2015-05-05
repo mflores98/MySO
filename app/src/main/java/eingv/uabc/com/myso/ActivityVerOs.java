@@ -719,8 +719,8 @@ private TextView descripcionMostrar;
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.regresar1) {
-           Intent intent=new Intent(this,MainActivity.class);
-            startActivity(intent);
+            finish();
+            return true;
         }
 
         return super.onOptionsItemSelected(item);
